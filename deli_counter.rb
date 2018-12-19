@@ -1,5 +1,5 @@
 katz_deli = []
-$ticket = 1
+$ticket = 0
 
 def line(katz_deli)
   if katz_deli.count == 0
@@ -16,6 +16,7 @@ end
 
 def take_a_number (katz_deli)
      katz_deli.push(1)
+     $ticket += 1
   puts "Welcome, you are ticket #{$ticket}. You are number #{katz_deli.count} in line."
 end
 
