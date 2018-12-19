@@ -28,4 +28,4 @@ end
 
 take_a_number(katz_deli, 'alice')
 take_a_number(katz_deli, 'Victoria')
-#now_serving(katz_deli)
+now_serving(katz_deli)
