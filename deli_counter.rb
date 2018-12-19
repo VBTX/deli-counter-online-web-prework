@@ -27,3 +27,4 @@ def now_serving(katz_deli)
 end
 
 take_a_number(katz_deli, 'alice')
+now_serving(katz_deli)
